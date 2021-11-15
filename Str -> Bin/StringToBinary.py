@@ -6,6 +6,7 @@ def StrToAscii(text):
         place += 1
     AsciiToBinary(text)
 
+    
 def AsciiToBinary(ascii):
     place = 0
     for i in ascii:
