@@ -5,8 +5,7 @@ def StrToAscii(text):
         text[place] = ord(text[place])
         place += 1
     AsciiToBinary(text)
-
-    
+  
 def AsciiToBinary(ascii):
     place = 0
     for i in ascii:
